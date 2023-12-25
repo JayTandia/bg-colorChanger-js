@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    flex-wrap: wrap;
+    
+}
+
+.btn-grp{
+    display: flex;
+    margin: 40px;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+    
+}
+
+.button{
+    height: 120px;
+    width: 120px;
+    border: 5px solid;
+    margin: 5px;
+}
+
+#grey{
+    background-color: grey;
+    
+}
+
+#white{
+    background-color: white;
+   
+}
+
+#yellow{
+    background-color: yellow;
+    
+}
+
+#red{
+    background-color: red;
+   
+}
+
+#blue{
+    background-color: blue;
+    
+}
+
+#violet{
+    background-color: violet;
+    
+}
